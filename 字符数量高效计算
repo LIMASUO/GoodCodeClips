@@ -18,9 +18,8 @@ if __name__ == '__main__':
 
 
 def char_count(str):
-
-    chardict = {}
     
+    chardict = {}   
     for char in str:
         c = chardict.get(char)
         if c is None:
